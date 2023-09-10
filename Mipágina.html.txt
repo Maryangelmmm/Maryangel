@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: gold;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 36px;
+        }
+        section {
+            padding: 20px;
+        }
+        .cat-image {
+            max-width: 100%;
+        }
+        .rihanna-image {
+            max-width: 300px;
+        }
+        .luxury-image {
+            max-width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mi Página Personal</h1>
+    </header>
+    <section>
+        <h2>Moda</h2>
+        <p>Aquí encontrarás contenido relacionado con las últimas tendencias en moda.</p>
+    </section>
+    <section>
+        <h2>Gatos</h2>
+        <img class="cat-image" src="imagen-de-gato.jpg" alt="Un lindo gato">
+        <p>Explora el maravilloso mundo de los gatos y descubre historias fascinantes.</p>
+    </section>
+    <section>
+        <h2>Viajes</h2>
+        <p>Compartiré mis experiencias de viaje y consejos para explorar nuevos destinos.</p>
+    </section>
+    <section>
+        <h2>Mujer Empoderada</h2>
+        <p>Destacaremos historias inspiradoras de mujeres empoderadas en todo el mundo.</p>
+    </section>
+    <section>
+        <h2>Rihanna</h2>
+        <img class="rihanna-image" src="imagen-de-rihanna.jpg" alt="Rihanna">
+        <p>Rihanna es un ícono de la música y la moda, un ejemplo de superación personal.</p>
+    </section>
+    <section>
+        <h2>Cosas de Lujo</h2>
+        <img class="luxury-image" src="imagen-de-lujo.jpg" alt="Artículos de lujo">
+        <p>Explora el mundo del lujo y descubre artículos exclusivos que inspiran el éxito.</p>
+    </section>
+    <section>
+        <h2>Superación Personal</h2>
+        <p>El camino hacia el éxito comienza con la superación personal. Aquí encontrarás consejos y motivación para alcanzar tus metas.</p>
+    </section>
+</body>
+</html>
